@@ -1,0 +1,100 @@
+# =========================================================================
+# OS / Editor
+# =========================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.code-workspace
+
+# =========================================================================
+# C# / .NET  (gui/)
+# =========================================================================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.cache
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+TestResults/
+*.pdb
+
+# =========================================================================
+# C++ / CMake  (core/)
+# =========================================================================
+build/
+build-*/
+out/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+_deps/
+compile_commands.json
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.exp
+*.ilk
+*.idb
+*.ipch
+
+# =========================================================================
+# Python  (ai/)
+# =========================================================================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+.venv/
+venv/
+env/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# AI model weights / datasets (large binaries)
+ai/models/*
+!ai/models/.gitkeep
+*.pt
+*.pth
+*.onnx
+*.h5
+*.ckpt
+*.safetensors
+data/raw/
